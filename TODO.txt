@@ -1,0 +1,44 @@
+- Create React App
+- Add Router (Routes: MAIN, LOCATION)
+- Create Pages and Styling
+- Add API calls for Data
+(- Add serviceworker and IndexedDB for weather Data (offline availability!))
+- Gradient Design
+- Setup GitHub Pages
+- Add secrets to GitHub Pages
+- Deploy to GitHub Pages
+
+MAIN PAGE:
+- Create NAVBAR (Desktop: Side, Mobile: BURGER into Menu DRAWER from top)
+- INPUT for Location (Simple, Responsive, Centered)
+- if looked at location and saved => CARDS for saved locations with display of current weather
+- Autocomplete for the location INPUT (Lookahead)
+
+LOCATION PAGE:
+- CAROUSEL for Temp and Weather display for days
+- Todays Temp and Rain over time as CHART (Area?)
+- CHECKBOX for saving location (=> Displayes loaction on MAIN PAGE)
+
+MENU:
+- Light / Dark mode BUTTON
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+Bitte programmiere eine kleine Wetter-Web-App. Harte Anforderungen sind folgende:
+- Öffentlich erreichbar aus dem Internet
+- Eingabefeld, um einen Ort einzugeben
+- Anzeige des Wetters am eingegebenen Ort (z.B. via OpenWeather)
+
+Wenn du möchtest, kannst du dir etwas von den folgenden Stretch Goals aussuchen:
+- Visualisierungen (Icons, Charts, etc)
+- Lookahead bei der Ortssuche (wie z.B. bei Google Maps)
+- Wetter für mehrere Tage anzeigen
+- Slickes Styling (z.B. Dark Mode, Gradient Design, etc)
+- Umsetzung mit React
+- ...
+
+Wie angesprochen geht es nicht darum, alles bis in's letzte Detail perfekt fertigzubauen. 
+Die Vorschläge sind eher Anregungen, mit was du dich beschäftigen könntest. 
+Bei der Wahl der Technologien/Anbieter bist du komplett frei.
