@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css'
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-import arrow_right from '../assets/arrow_right_white.svg';
+import arrow_right from '../assets/arrow_right.svg';
 
 export default function Home () {
   return (

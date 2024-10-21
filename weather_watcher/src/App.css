@@ -5,7 +5,7 @@
   padding: 2rem;
   text-align: center;
   background: 
-    radial-gradient(circle at top left, #ffffffcf, transparent 15%), 
+    radial-gradient(circle at top left, #ffffffcf, transparent 13rem), 
     linear-gradient(155deg, #00bce6, #ffa719);
 }
 
@@ -30,19 +30,19 @@
 .menu-button {
   position: fixed;
   background-color: transparent !important; 
-  top: 1rem;
-  right: 1rem;
-  height: 5rem !important;
+  top: 2rem;
+  right: 2rem;
+  height: 4rem !important;
   padding: 0rem !important;
   will-change: filter !important;
   transition: filter 300ms !important;
+  filter: drop-shadow(0 0 0.7rem #ffffff);
 }
 
 .menu-button:hover {
-  filter: drop-shadow(0 0 1rem #ffffff);
+  filter: drop-shadow(0 0 0.5rem #ffffff);
 }
 
 .menu-icon {
-  height:5rem;
-  padding: 0.5rem;
+  height:4rem;
 }
