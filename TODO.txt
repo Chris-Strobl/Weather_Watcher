@@ -1,4 +1,4 @@
-- Create Pages and Styling
+- Create Pages and Styling (Add 'drop lighting' to hovers)
 - Add API calls for Data
 (- Add serviceworker and IndexedDB for weather Data (offline availability!))
 - Gradient Design
@@ -7,18 +7,18 @@
 - Deploy to GitHub Pages
 
 MAIN PAGE:
-- Create NAVBAR (Desktop: Side, Mobile: BURGER into Menu DRAWER from top)
+- Create navbar (Desktop: BURGER(sheet trigger) into SHEET from right side, Mobile: BURGER(sheet trigger) into Menu SHEET from top)
 - INPUT for Location (Simple, Responsive, Centered)
 - if looked at location and saved => CARDS for saved locations with display of current weather
 - Autocomplete for the location INPUT (Lookahead)
 
 LOCATION PAGE:
-- CAROUSEL for Temp and Weather display for days
+- CAROUSEL for Temp and Weather display for days (make overflow hidden)
 - Todays Temp and Rain over time as CHART (Area?)
-- CHECKBOX for saving location (=> Displayes loaction on MAIN PAGE)
+- CHECKBOX for saving location (=> Displayes loaction on MAIN PAGE, Gives TOAST that location was added)(TOOLTIP on hover)
 
 MENU:
-- Light / Dark mode BUTTON
+- Light / Dark mode SWITCH
 - About page link BUTTON
 
 

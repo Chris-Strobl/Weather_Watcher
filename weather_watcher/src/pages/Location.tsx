@@ -1,5 +1,6 @@
 import React from 'react';
+import './Location.css'
 
 export default function Location () {
-  return <h2>Home Page</h2>;
+  return <h2>Location Page</h2>;
 };

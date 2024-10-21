@@ -8,6 +8,7 @@ export default function AppRoutes () {
     return (
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/location" element={<Location />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<Home />} />
