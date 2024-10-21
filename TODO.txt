@@ -7,7 +7,7 @@
 - Deploy to GitHub Pages
 
 MAIN PAGE:
-- Create navbar (Desktop: BURGER(trigger) into ICONS from right)
+- Create navbar (Desktop: BURGER(trigger) into ICONS (with glow) from right)
 - INPUT for Location (Simple, Responsive, Centered)
 - if looked at location and saved => CARDS for saved locations with display of current weather
 - Autocomplete for the location INPUT (Lookahead)

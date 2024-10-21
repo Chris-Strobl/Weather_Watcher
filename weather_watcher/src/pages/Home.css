@@ -36,11 +36,11 @@
     will-change: filter !important;
     transition: filter 300ms !important;
     z-index: 100;
-    filter: drop-shadow(0 0 0.5rem #ffffffaf);
+    filter: drop-shadow(0.3rem 0 0.7rem #ffffffaf);
 }
 
 .location-input-button:hover {
-    filter: drop-shadow(0.5em 0 1.5rem #ffffff);
+    filter: drop-shadow(0.5rem 0 1.5rem #ffffff);
     background-color: #ffa719 !important;
 }
 
