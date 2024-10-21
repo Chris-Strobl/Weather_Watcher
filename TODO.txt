@@ -1,5 +1,3 @@
-- Create React App
-- Add Router (Routes: MAIN, LOCATION)
 - Create Pages and Styling
 - Add API calls for Data
 (- Add serviceworker and IndexedDB for weather Data (offline availability!))
@@ -22,6 +20,14 @@ LOCATION PAGE:
 MENU:
 - Light / Dark mode BUTTON
 - About page link BUTTON
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+DONE:
+- Create React App
+- Add Router (Routes: MAIN, LOCATION)
 
 
 ---------------------------------------------------------------------------------------------------------------------
