@@ -17,7 +17,7 @@
 .location-input {
     height: 3rem !important;
     font-size: 1rem !important;
-    z-index: 101;
+    z-index: 100;
     will-change: filter !important;
     transition: filter 300ms !important;
 }
@@ -36,7 +36,7 @@
     will-change: filter !important;
     transition: filter 300ms !important;
     z-index: 100;
-    filter: drop-shadow(0.3rem 0 0.7rem #ffffffaf);
+    filter: drop-shadow(0 0 0.7rem #ffffffaf);
 }
 
 .location-input-button:hover {
@@ -47,4 +47,31 @@
 .arrow-icon {
     height: 3.2rem;
     transform: rotate(225deg);
+}
+
+.suggestion-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 !important;
+    background-color: white;
+    border: 1px solid #ccc;
+    overflow-y: auto;
+    position: absolute;
+    top: 3.5rem;
+    will-change: filter !important;
+    transition: filter 300ms !important;
+    z-index: 100;
+}
+
+.suggestion-list:hover {
+    filter: drop-shadow(0 0 1.5rem #ffffff9f);
+}
+
+.suggestion-list-item {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.suggestion-list-item:hover {
+    background-color: #f0f0f0;
 }

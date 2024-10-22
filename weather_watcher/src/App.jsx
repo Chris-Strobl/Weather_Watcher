@@ -1,5 +1,4 @@
 import ww_logo from './assets/ww_logo.svg'
-import cloud_logo from './assets/cloud_logo.svg'
 import menu_icon from './assets/menu_icon.svg'
 import './App.css'
 import { BrowserRouter, Link } from 'react-router-dom';

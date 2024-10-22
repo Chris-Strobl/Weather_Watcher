@@ -1,5 +1,10 @@
 - Create Pages and Styling (Add 'drop lighting' to hovers)
-- Add API calls for Data
+- Add API calls for Data:
+    -> Endpoint: api.openweathermap.org
+    -> APIS: 
+        => Nominatim: https://nominatim.openstreetmap.org/search?q=London&format=json&addressdetails=1&limit=5 
+        => Current weather data, 5 day / 3 hour forecast
+
 (- Add serviceworker and IndexedDB for weather Data (offline availability!))
 - Gradient Design
 - Setup GitHub Pages
@@ -18,7 +23,7 @@ LOCATION PAGE:
 - CHECKBOX for saving location (=> Displayes loaction on MAIN PAGE, Gives TOAST that location was added)(TOOLTIP on hover)
 
 MENU:
-- Light / Dark mode SWITCH
+- Light / Dark mode SWITCH (Just switch the color of the gradient to a draker blue(#00bce6 => #0036e6) and orange(#ffa719 => #ff8c19))
 - About page link BUTTON
 
 

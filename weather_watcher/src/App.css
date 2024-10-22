@@ -9,6 +9,12 @@
     linear-gradient(155deg, #00bce6, #ffa719);
 }
 
+.bg-dark {
+  background: 
+    radial-gradient(circle at top left, #ffffffaf, transparent 13rem), 
+    linear-gradient(155deg, #0036e6, #ff8c19);
+}
+
 .logo-home-link {
   position: fixed;
   top: -5.5rem;
