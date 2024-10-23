@@ -1,0 +1,123 @@
+.location-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.location-name {
+    height: 3rem;
+    width: 30rem;
+    max-width: calc(100vw - 4rem);
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+    color: white;
+    text-align: start;
+    padding-left: 0.5rem;
+    filter: drop-shadow(0 0 0.5rem #ffffff9f);
+}
+
+.location-current-weather {
+    width: 30rem;
+    max-width: calc(100vw - 4rem);
+    height: 8rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    filter: drop-shadow(0 0 0.7rem #ffffff9f);
+}
+
+.location-icon {
+    height: 8rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.location-temp {
+    margin-right: 1rem;
+    line-height: 2.2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.loaction-wind-container {
+    height: 8rem;
+    line-height: 1.7rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.location-wind-speed {
+    margin-bottom: 0.7rem;
+}
+
+.chart-card {
+    height: 18rem;
+    width: 30rem;
+    max-width: calc(100vw - 4rem);
+    margin-bottom: 1rem;
+    will-change: filter !important;
+    transition: filter 300ms !important;
+    z-index: 100;
+}
+
+.chart-card:hover {
+    filter: drop-shadow(0 0 0.7rem #ffffff9f);
+}
+.day-carousel {
+    width: 30rem !important;
+    max-width: calc(100vw - 8rem) !important;
+}
+
+.day-carousel-item {
+    will-change: filter !important;
+    transition: filter 300ms !important;
+    z-index: 100;
+}
+
+.day-carousel-item:hover {
+    filter: drop-shadow(0 0 0.2rem #ffffff9f);
+}
+
+.day-carousel-button {
+    color: #ffffff !important;
+    background-color: transparent !important;
+    border: none;
+    will-change: filter !important;
+    transition: filter 300ms !important;
+    filter: drop-shadow(0 0 0.7rem #ffffff);
+    z-index: 100;
+}
+
+.day-carousel-button:hover {
+    filter: drop-shadow(0 0 0.5rem #ffffff);
+}
+
+.carousel-arrow {
+    height: 2rem !important;
+    width: 2rem !important;
+}
+
+.loading-message {
+    height: 3rem;
+    width: 30rem;
+    max-width: calc(100vw - 4rem);
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2rem;
+    color: white;
+    filter: drop-shadow(0 0 0.5rem #ffffff9f);
+}

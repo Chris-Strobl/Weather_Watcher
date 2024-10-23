@@ -68,10 +68,21 @@
 }
 
 .suggestion-list-item {
-    padding: 8px;
+    padding: 0.5rem !important;
+    height: 4rem !important;
     cursor: pointer;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .suggestion-list-item:hover {
     background-color: #f0f0f0;
+}
+
+.suggestion-list-separator {
+    width: calc(100% - 2rem) !important;
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
 }

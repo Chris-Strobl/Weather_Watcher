@@ -1,26 +1,18 @@
-- Create Pages and Styling (Add 'drop lighting' to hovers)
-- Add API calls for Data:
-    -> Endpoint: api.openweathermap.org
-    -> APIS: 
-        => Nominatim: https://nominatim.openstreetmap.org/search?q=London&format=json&addressdetails=1&limit=5 
-        => Current weather data, 5 day / 3 hour forecast
-
-(- Add serviceworker and IndexedDB for weather Data (offline availability!))
-- Gradient Design
+- Create Location page
+- Location display
+(- IndexedDB for saved locations)
 - Setup GitHub Pages
 - Add secrets to GitHub Pages
 - Deploy to GitHub Pages
 
 MAIN PAGE:
-- Create navbar (Desktop: BURGER(trigger) into ICONS (with glow) from right)
-- INPUT for Location (Simple, Responsive, Centered)
-- if looked at location and saved => CARDS for saved locations with display of current weather
-- Autocomplete for the location INPUT (Lookahead)
+- Create ICONS (with glow) from right
+(- if looked at location and saved => CARDS for saved locations with display of current weather)
 
 LOCATION PAGE:
 - CAROUSEL for Temp and Weather display for days (make overflow hidden)
 - Todays Temp and Rain over time as CHART (Area?)
-- CHECKBOX for saving location (=> Displayes loaction on MAIN PAGE, Gives TOAST that location was added)(TOOLTIP on hover)
+(- CHECKBOX for saving location (=> Displayes loaction on MAIN PAGE, Gives TOAST that location was added)(TOOLTIP on hover))
 
 MENU:
 - Light / Dark mode SWITCH (Just switch the color of the gradient to a draker blue(#00bce6 => #0036e6) and orange(#ffa719 => #ff8c19))
@@ -29,10 +21,20 @@ MENU:
 
 ---------------------------------------------------------------------------------------------------------------------
 
-
 DONE:
+
 - Create React App
 - Add Router (Routes: MAIN, LOCATION)
+- Create Home page
+- Add API calls for Data:
+    -> Endpoint: api.openweathermap.org
+    -> APIS: 
+        => Nominatim: https://nominatim.openstreetmap.org/search?q=London&format=json&addressdetails=1&limit=5 
+        => Current weather data, 5 day / 3 hour forecast
+
+MAIN PAGE:
+- INPUT for Location (Simple, Responsive, Centered)
+- Autocomplete for the location INPUT (Lookahead)
 
 
 ---------------------------------------------------------------------------------------------------------------------
