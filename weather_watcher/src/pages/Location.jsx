@@ -25,6 +25,7 @@ export default function Location () {
   const [daysData, setDaysData] = useState(null);
   const [selectedDay, setSelectedDay] = useState(0);
   const [icons, setIcons] = useState({ cloudIcon, clearIcon, mistIcon, snowIcon, rainIcon, thunderIcon });
+  const apiKey = import.meta.env.VITE_API_KEY;
 
   useEffect(() => {
     if (suggestionData) {
@@ -32,16 +33,12 @@ export default function Location () {
         try {
           setLoading(true);
 
-          // TODO: HIDE API KEY
-
           const [currentWeather, forecastWeather] = await Promise.all([
-            fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${suggestionData.lat}&lon=${suggestionData.lon}&units=metric&appid=d6661ffa1d140b112ffb5b0c3193d595`).then(res => res.json()),
-            fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${suggestionData.lat}&lon=${suggestionData.lon}&units=metric&appid=d6661ffa1d140b112ffb5b0c3193d595`).then(res => res.json())
+            fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${suggestionData.lat}&lon=${suggestionData.lon}&units=metric&appid=${apiKey}`).then(res => res.json()),
+            fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${suggestionData.lat}&lon=${suggestionData.lon}&units=metric&appid=${apiKey}`).then(res => res.json())
           ]);
           setWeatherData({currentWeather: currentWeather, forecastWeather: forecastWeather});
 
-          // TODO: CHART DATA, max and min temps for each day, icon for each day (most common icon)
-          // [days] => day: { date, maxTemp, minTemp, mostCommonCondition, chartData }
           let days = [];
           let dayData;
           let date;
